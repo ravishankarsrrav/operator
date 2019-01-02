@@ -1,5 +1,5 @@
-hash: d194d36118200db5dbd5fa3226d1cadb82c6c47f25ad8a4e460900551c9e9e69
-updated: 2018-12-27T23:05:47.501132394-08:00
+hash: 6b200fa33d61ce2ad3457c73837f9b28f927ab7f70f3d7667d219a789f70a34b
+updated: 2019-01-01T19:27:24.849829234-08:00
 imports:
 - name: bitbucket.org/ww/goautoneg
   version: 75cd24fc2f2c2a2088577d12123ddee5f54e0675
@@ -234,7 +234,7 @@ imports:
 - name: github.com/emicklei/go-restful-swagger12
   version: dcef7f55730566d41eae5db10e7d6981829720f6
 - name: github.com/evanphx/json-patch
-  version: afac545df32f2287a079e2dfb7ba2745a643747e
+  version: 72bf35d0ff611848c1dc9df0f976c81192392fa5
 - name: github.com/fatih/structs
   version: 878a968ab22548362a09bdb3322f98b00f470d46
 - name: github.com/fsnotify/fsnotify
@@ -336,7 +336,7 @@ imports:
 - name: github.com/json-iterator/go
   version: 1624edc4454b8682399def8740d46db5e4362ba4
 - name: github.com/kubedb/apimachinery
-  version: aec041af864d9601b83e1e3c1b4c22bb0b52f925
+  version: 56cf0f33ae071dec979db480e0e9e20c9c22ef2e
   subpackages:
   - apis
   - apis/authorization
@@ -375,7 +375,7 @@ imports:
   - pkg/eventer
   - pkg/validator
 - name: github.com/kubedb/elasticsearch
-  version: e53966e0f5c3682439eb8ad571c694497f49a3d1
+  version: 2b1b323a180002b3d8bc19736003b59e1b686bc0
   subpackages:
   - pkg/admission
   - pkg/controller
@@ -384,34 +384,34 @@ imports:
   - third_party/golang/crypto/pkcs12
   - third_party/golang/crypto/pkcs12/internal/rc2
 - name: github.com/kubedb/etcd
-  version: 764e14d91a6eaf87f4247e4759acd949b491d3f9
+  version: f9cfe6fce0afca67c4aed3f5d66f90726e46c6d6
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/util
 - name: github.com/kubedb/memcached
-  version: 9aa9ca09daee0ed24cdd51d7f26db2e246e88c38
+  version: 1a90d05f46af213e52c617e2007b96ce208b3476
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mongodb
-  version: eadf3cf7e275d12b5c9a8f66eb72fa520d369a0b
+  version: 71d74c16260db5967818a09a7016d34ddead4c93
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mysql
-  version: 61497be6d521a2e948e2b8f904e7f98846fa9a34
+  version: 4d910593996656bf406e75c6856af8a405597028
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/postgres
-  version: b0ed4c6ee2ab737001ef9fc2e3e1b1d48f6bfa24
+  version: 340b65406dcdf619475fa3ad1165fd57b1ae929e
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/leader_election
 - name: github.com/kubedb/redis
-  version: 8a5b715bdcfa863e5532290b894dedff090587b6
+  version: e81dcadf03cddfb3f62a0d18c8e0a37a8f5109ac
   subpackages:
   - pkg/admission
   - pkg/controller
@@ -438,7 +438,7 @@ imports:
 - name: github.com/NYTimes/gziphandler
   version: 56545f4a5d46df9a6648819d1664c3a03a13ffdb
 - name: github.com/olivere/elastic
-  version: 4f37c8b6272e53c8d4c35c6704cc82ad76cbed72
+  version: c69d1da26c7a0e3efcd589fafc865eeb1077c6b5
   subpackages:
   - config
   - uritemplates
@@ -456,7 +456,6 @@ imports:
   version: c5b7fccd204277076155f10851dad72b76a49317
   subpackages:
   - prometheus
-  - prometheus/promhttp
 - name: github.com/prometheus/client_model
   version: fa8ad6fec33561be4280a8f0514318c79d7f6cb6
   subpackages:
@@ -715,7 +714,7 @@ imports:
   - third_party/forked/golang/netutil
   - third_party/forked/golang/reflect
 - name: k8s.io/apiserver
-  version: 419ab4faf457be27411fc8125ed110a03be373e8
+  version: 2aa1408a8c0a98b7d52911b63a98cbb7c9fd5e7c
   repo: https://github.com/kmodules/apiserver.git
   vcs: git
   subpackages:
