@@ -1,5 +1,5 @@
 hash: d194d36118200db5dbd5fa3226d1cadb82c6c47f25ad8a4e460900551c9e9e69
-updated: 2019-01-08T12:40:14.721518812+06:00
+updated: 2019-01-08T12:50:25.081315756+06:00
 imports:
 - name: bitbucket.org/ww/goautoneg
   version: 75cd24fc2f2c2a2088577d12123ddee5f54e0675
@@ -336,7 +336,7 @@ imports:
 - name: github.com/json-iterator/go
   version: 1624edc4454b8682399def8740d46db5e4362ba4
 - name: github.com/kubedb/apimachinery
-  version: 793a8b1f7757af96aafd2c0228f97761c4c1933a
+  version: 5d5229ee06907308f61d61b09ff07ea7aa8c2c0c
   subpackages:
   - apis
   - apis/authorization
@@ -384,34 +384,34 @@ imports:
   - third_party/golang/crypto/pkcs12
   - third_party/golang/crypto/pkcs12/internal/rc2
 - name: github.com/kubedb/etcd
-  version: e12e05cee05d1bf87fa5039d49fda896af4a161b
+  version: 764e14d91a6eaf87f4247e4759acd949b491d3f9
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/util
 - name: github.com/kubedb/memcached
-  version: f071bc58dfd10170d4f86ed854baa3e595da0d95
+  version: 9aa9ca09daee0ed24cdd51d7f26db2e246e88c38
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mongodb
-  version: 7170716bd12f83efef0ac0cfd7bd7f989dd7a0d1
+  version: ec3eed9474a05bbfb4a5f01def7417aa9691c0d3
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mysql
-  version: 973ec41685489b0d743739892147ab7b86dbc57a
+  version: 99e57a9e1a6b85ee6a74efe9a4f07a8a1b24095e
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/postgres
-  version: bf8400825a35a7a5d367995789e12f945f1d0a1d
+  version: a697976a11a00283001823a0deed7eea0c8c5025
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/leader_election
 - name: github.com/kubedb/redis
-  version: 4bda724f4aede9e1dd6828e9fe35cc507dfea6d3
+  version: 8a5b715bdcfa863e5532290b894dedff090587b6
   subpackages:
   - pkg/admission
   - pkg/controller
