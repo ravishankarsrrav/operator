@@ -1,5 +1,5 @@
 hash: d194d36118200db5dbd5fa3226d1cadb82c6c47f25ad8a4e460900551c9e9e69
-updated: 2018-12-27T23:05:47.501132394-08:00
+updated: 2019-01-08T12:40:14.721518812+06:00
 imports:
 - name: bitbucket.org/ww/goautoneg
   version: 75cd24fc2f2c2a2088577d12123ddee5f54e0675
@@ -37,7 +37,7 @@ imports:
   - admission/v1beta1
   - registry/admissionreview/v1beta1
 - name: github.com/appscode/kutil
-  version: 6546fe6e8bde14cda08b0415f926cbed47d66e6a
+  version: c2edb24c3c1c6f97bbe8d0616dc2eee59a11c665
   subpackages:
   - admissionregistration/v1beta1
   - apiextensions/v1beta1
@@ -234,11 +234,11 @@ imports:
 - name: github.com/emicklei/go-restful-swagger12
   version: dcef7f55730566d41eae5db10e7d6981829720f6
 - name: github.com/evanphx/json-patch
-  version: afac545df32f2287a079e2dfb7ba2745a643747e
+  version: 72bf35d0ff611848c1dc9df0f976c81192392fa5
 - name: github.com/fatih/structs
   version: 878a968ab22548362a09bdb3322f98b00f470d46
 - name: github.com/fsnotify/fsnotify
-  version: f12c6236fe7b5cf6bcf30e5935d08cb079d78334
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
 - name: github.com/ghodss/yaml
   version: 0ca9ea5df5451ffdf184b4428c902747c2c11cd7
 - name: github.com/go-ini/ini
@@ -336,7 +336,7 @@ imports:
 - name: github.com/json-iterator/go
   version: 1624edc4454b8682399def8740d46db5e4362ba4
 - name: github.com/kubedb/apimachinery
-  version: aec041af864d9601b83e1e3c1b4c22bb0b52f925
+  version: 793a8b1f7757af96aafd2c0228f97761c4c1933a
   subpackages:
   - apis
   - apis/authorization
@@ -375,7 +375,7 @@ imports:
   - pkg/eventer
   - pkg/validator
 - name: github.com/kubedb/elasticsearch
-  version: e53966e0f5c3682439eb8ad571c694497f49a3d1
+  version: e7982eb93d0220ff001221a4db8b1c235725cecb
   subpackages:
   - pkg/admission
   - pkg/controller
@@ -384,34 +384,34 @@ imports:
   - third_party/golang/crypto/pkcs12
   - third_party/golang/crypto/pkcs12/internal/rc2
 - name: github.com/kubedb/etcd
-  version: 764e14d91a6eaf87f4247e4759acd949b491d3f9
+  version: e12e05cee05d1bf87fa5039d49fda896af4a161b
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/util
 - name: github.com/kubedb/memcached
-  version: 9aa9ca09daee0ed24cdd51d7f26db2e246e88c38
+  version: f071bc58dfd10170d4f86ed854baa3e595da0d95
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mongodb
-  version: eadf3cf7e275d12b5c9a8f66eb72fa520d369a0b
+  version: 7170716bd12f83efef0ac0cfd7bd7f989dd7a0d1
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mysql
-  version: 61497be6d521a2e948e2b8f904e7f98846fa9a34
+  version: 973ec41685489b0d743739892147ab7b86dbc57a
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/postgres
-  version: b0ed4c6ee2ab737001ef9fc2e3e1b1d48f6bfa24
+  version: bf8400825a35a7a5d367995789e12f945f1d0a1d
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/leader_election
 - name: github.com/kubedb/redis
-  version: 8a5b715bdcfa863e5532290b894dedff090587b6
+  version: 4bda724f4aede9e1dd6828e9fe35cc507dfea6d3
   subpackages:
   - pkg/admission
   - pkg/controller
@@ -438,12 +438,12 @@ imports:
 - name: github.com/NYTimes/gziphandler
   version: 56545f4a5d46df9a6648819d1664c3a03a13ffdb
 - name: github.com/olivere/elastic
-  version: 4f37c8b6272e53c8d4c35c6704cc82ad76cbed72
+  version: f5738570b28a4b5fab39442e3a5b5ffc599a562c
   subpackages:
   - config
   - uritemplates
 - name: github.com/orcaman/concurrent-map
-  version: b28018939af9022337862b94a463abb18abb3e0e
+  version: 7ed82d9cb71768a4e3656ee8837c7af568c75459
 - name: github.com/pavel-v-chernykh/keystore-go
   version: 7bbcda7e585ed7a01e8610f6e19dde5bc2c1f6d0
 - name: github.com/pborman/uuid
@@ -456,7 +456,6 @@ imports:
   version: c5b7fccd204277076155f10851dad72b76a49317
   subpackages:
   - prometheus
-  - prometheus/promhttp
 - name: github.com/prometheus/client_model
   version: fa8ad6fec33561be4280a8f0514318c79d7f6cb6
   subpackages:
@@ -478,7 +477,7 @@ imports:
 - name: github.com/russross/blackfriday
   version: 05f3235734ad95d0016f6a23902f06461fcf567a
 - name: github.com/satori/go.uuid
-  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
 - name: github.com/sergi/go-diff
   version: 97b2266dfe4bd4ea1b81a463322f04f8b724801e
   subpackages:
@@ -715,7 +714,7 @@ imports:
   - third_party/forked/golang/netutil
   - third_party/forked/golang/reflect
 - name: k8s.io/apiserver
-  version: 419ab4faf457be27411fc8125ed110a03be373e8
+  version: 2aa1408a8c0a98b7d52911b63a98cbb7c9fd5e7c
   repo: https://github.com/kmodules/apiserver.git
   vcs: git
   subpackages:
@@ -989,7 +988,7 @@ imports:
   - client/clientset/versioned/typed/appcatalog/v1alpha1
   - client/clientset/versioned/typed/appcatalog/v1alpha1/util
 - name: kmodules.xyz/monitoring-agent-api
-  version: d12289267b3d7510feb9fac1f5e451d476f23a38
+  version: e79ddf3f680a16a99b9aacb718f5607b54cef04d
   repo: https://github.com/kmodules/monitoring-agent-api.git
   vcs: git
   subpackages:
